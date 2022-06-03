@@ -1,0 +1,89 @@
+#thumbnails { 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+#thumbnails img {
+    margin: 4%;
+    width: 25%;
+    height: auto;
+}
+
+#thumbnails hover {
+    cursor:pointer
+}
+
+#thumbnails2 { 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+#thumbnails2 img {
+    margin: 2%;
+    width: 40%;
+    height: auto;
+}
+
+#thumbnails2 hover {
+    cursor:pointer
+}
+
+#thumbnails3 { 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+
+#thumbnails3 img {
+    margin: 3%;
+    width: 25%;
+    height: auto;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#thumbnails3 hover {
+    cursor:pointer
+}
+
+
+#thumbnails4 { 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+
+#thumbnails4 img {
+    margin: 1%;
+    width: 30%;
+    height: auto;
+}
+
+#thumbnails4 hover {
+    cursor:pointer
+        
+}
+
+#thumbnails5 { 
+    width: 90%; 
+    text-align: center; 
+    margin: 0 auto;
+}
+
+#thumbnails5 img {
+    margin: 1%;
+    width: 60%;
+    height: auto;
+}
+
+#thumbnails5 hover {
+    cursor:pointer
+}

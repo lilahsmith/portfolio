@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+html {
+color: #7e93b0;
+background-color: #F4F2F3;
+font-size: 18px;
+font-family: 'Tenor Sans', sans-serif;
+}
+
+body {
+width: 80%; 
+max-width: 1000px; 
+margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+header {
+margin-top:50px;
+height: auto; 
+text-align: center;
+}
+
+#gallery {
+display: flex; 
+flex-direction: row;
+flex-wrap: wrap; 
+justify-content: space-between; 
+align-items: center; 
+}
+
+.video {
+    text-align: center;
+}
+
+.video2 {
+    text-align: center;
+}
+
+#gallery > * {
+flex-basis: 30%; 
+margin: 0 0 2.5% 0; 
+}
+
+#gallery img {
+width: 100%; 
+height: auto; 
+vertical-align: bottom;
+}
+
+nav {
+margin-top:25px;
+margin-bottom:40px;
+margin-left: auto;
+margin-right: auto;
+text-align: center; 
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #a3b7d2; 
+}
+
+#list {
+margin-left: 300px;
+margin-right: auto; 
+margin-bottom: 50px;
+}
+
+
+main {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+h1 {
+margin-left: 300px;
+margin-right: auto; 
+}
+
+p {
+    margin: 40px 150px 50px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a:link {
+  color: #7e93b0;
+}
+
+a:visited {
+  color: #a3b7d2;
+}
+.float-figure {
+	margin: 0;
+	width: 200px; 
+	float: left;	
+    margin-right: 2em;
+}
+ 
+.float-figure img {
+	width: 200px;
+	height: auto;
+}
+
+footer {
+margin-top:25px;
+margin-bottom:25px;
+margin-left: 450px;
+margin-right: auto; 
+color: #a3b7d2; 
+}
